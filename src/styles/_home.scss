@@ -1,6 +1,6 @@
 .faq {
     padding: 20px 150px;
-    background-color: #2E8B57; 
+    background-color: #5be6f8; 
 
     .cta {
         position: fixed;
@@ -26,12 +26,17 @@
 }
 
 .faq__questions__item {
-    background-color: #888888;
+    background-color: #95a5a6;  
     margin-bottom: 16px;
+    border-radius: 10px;
+    transition: background-color 0.9s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3), 0 6px 12px rgba(0, 0, 0, 0.2);
+
 }
 
 .faq__questions__item:hover{
-    background-color: #AAAAAA;
+    background-color: #7f8c8d;
+    transform: translateY(-06px);
 }
 
 
@@ -42,7 +47,8 @@
     padding: 14px;
     display: block;
     cursor: pointer;
-    position: relative
+    position: relative;
+
 }
 
 .faq__questions__item__question::after {
@@ -80,6 +86,9 @@
     .image{
         width: 450px;
         height: 350px;
+        border-radius: 10px;
+        transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; /* Adicionando transição para suavizar a mudança */
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.4), 0 7px 14px rgba(0, 0, 0, 0.3); /* Efeito de sombra 3D mais pronunciado */
     }
 
 }
