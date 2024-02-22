@@ -1,9 +1,9 @@
 
 .header{
-    background-color: #0f2c75; 
+    background: linear-gradient(to bottom, #0f2c75 70%, #2E8B57) 90%; 
 
     .container{
-        padding: 20px 150px;    
+        padding: 50px 150px;    
         display: flex;
         justify-content: space-between;
         align-items: center;
