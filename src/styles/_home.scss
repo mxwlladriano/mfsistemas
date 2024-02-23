@@ -1,7 +1,6 @@
 .faq {
     padding: 20px 150px;
     background-color: #5be6f8; 
-
     .cta {
         position: fixed;
         bottom: 0;
@@ -12,6 +11,15 @@
             border-radius: 50%;
             width: 50%;
             height: auto;
+        }
+    }
+
+    .avaliacoes{
+
+        .comentarios{
+            height: 600px;
+            max-width: 100%;
+            margin-top: 25px;
         }
     }
 }
@@ -43,7 +51,7 @@
 .faq__questions__item__question {
     color: #000;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
     padding: 14px;
     display: block;
     cursor: pointer;
@@ -59,14 +67,15 @@
     height: 100%;
     display: flex;
     align-items: center;
-    font-size: 40px
+    font-size: 20px;
 }
 
 .faq__questions__item__answer {
+    font-size: 15px;
     height: 0;
     overflow: hidden;
     padding: 0 24px;
-    transition: height,.5s ease
+    transition: height,.5s ease;
 }
 
 .faq__questions__item--is-open .faq__questions__item__question::after {
@@ -82,13 +91,15 @@
 .servicos{
     display: flex;
     align-items: center;
+    margin-top: 100px;
 
     .image{
         width: 450px;
-        height: 350px;
+        height: 320px;
         border-radius: 10px;
         transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; /* Adicionando transição para suavizar a mudança */
         box-shadow: 0 14px 28px rgba(0, 0, 0, 0.4), 0 7px 14px rgba(0, 0, 0, 0.3); /* Efeito de sombra 3D mais pronunciado */
     }
 
 }
+

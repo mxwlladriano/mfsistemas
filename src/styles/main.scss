@@ -9,5 +9,18 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.title{
+    margin-top: 100px;
+    margin-left: 330px;
+    margin-right: 330px;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 15px;
+    background-color: rgba(149, 165, 166, 0.5);
+    transition: background-color 0.9s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3), 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
