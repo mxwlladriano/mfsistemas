@@ -1,0 +1,31 @@
+.sobre{
+    background-color: #5be6f8;
+    
+    .container{
+        padding: 20px 150px;
+
+        .estrofe1{
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-bottom: 50px;
+            font-size: 16px;
+            border-radius: 15px;
+            background-color: rgba(149, 165, 166, 0.5);
+            transition: background-color 0.9s ease, transform 0.2s ease, box-shadow 0.3s ease;
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3), 0 6px 12px rgba(0, 0, 0, 0.2);
+            }
+    
+            .estrofe1:hover{
+                transform: translateY(-9px);
+            }
+
+            span{
+                font-weight: bold;
+            }
+        
+    }
+}

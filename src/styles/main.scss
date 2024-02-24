@@ -1,5 +1,9 @@
 @use 'header';
 @use 'home';
+@use 'sobre';
+@use 'contato';
+@use 'footer';
+
 
 
 
@@ -24,3 +28,44 @@
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3), 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
+.title-big{
+    margin-top: 100px;
+    margin-left: 130px;
+    margin-right: 130px;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 15px;
+    background-color: rgba(149, 165, 166, 0.5);
+    transition: background-color 0.9s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3), 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 100px
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 24px
+}
+
+.cta {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 30px;
+    margin-left: 81%;        
+    z-index: 9999;
+
+    .image{
+        border-radius: 50%;
+        width: 70%;
+        height: auto;
+        transition: background-color 0.9s ease, transform 0.2s ease, box-shadow 0.3s ease;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3), 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .image:hover{
+        transform: translateY(-06px);
+    }
+}

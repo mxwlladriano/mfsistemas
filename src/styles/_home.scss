@@ -1,18 +1,6 @@
 .faq {
     padding: 20px 150px;
     background-color: #5be6f8; 
-    .cta {
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        z-index: 9999;
-
-        .image{
-            border-radius: 50%;
-            width: 50%;
-            height: auto;
-        }
-    }
 
     .avaliacoes{
 
@@ -22,11 +10,6 @@
             margin-top: 25px;
         }
     }
-}
-
-.faq h2 {
-    text-align: center;
-    margin-bottom: 24px
 }
 
 .faq__questions{
