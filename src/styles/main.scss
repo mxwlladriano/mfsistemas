@@ -49,15 +49,12 @@ h2 {
 
 .cta {
     position: fixed;
-    bottom: 0;
-    margin-bottom: 50px;
-    margin-left: 85%;        
-    z-index: 9999;
+    bottom: 50px;
+    left: 80%;
 
     .image{
         border-radius: 50%;
-        width: 61%;
-        height: auto;
+        width: 40%;
         transition: background-color 0.9s ease, transform 0.2s ease, box-shadow 0.3s ease;
         box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3), 0 6px 12px rgba(0, 0, 0, 0.2);
     }
@@ -77,8 +74,7 @@ h2 {
     }
 
     .cta {
-        margin-bottom: 100px;
-        margin-left: 55%;        
+              
     }
 
     body{
