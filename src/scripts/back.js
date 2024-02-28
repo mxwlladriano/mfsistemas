@@ -29,6 +29,14 @@ app.post('/enviar-contato', (req, res) => {
         text: `Nome: ${nome}\nEmail: ${email}\nTelefone: ${telefone}\nMensagem: ${mensagem}` // Corpo do e-mail
     };
 
+
+        // Adicionar manipulador de eventos para o evento 'log'
+transporter.on('log', console.log);
+
+// Adicionar manipulador de eventos para o evento 'error'
+transporter.on('error', console.error);
+
+
     // Enviar e-mail
     transporter.sendMail(mailOptions, (error, info) => {
         if (error) {
