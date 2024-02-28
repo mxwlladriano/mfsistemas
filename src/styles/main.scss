@@ -14,7 +14,7 @@
 }
 
 .title{
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 250px;
     margin-right: 250px;
     font-weight: bold;
@@ -50,13 +50,13 @@ h2 {
 .cta {
     position: fixed;
     bottom: 0;
-    margin-bottom: 30px;
-    margin-left: 81%;        
+    margin-bottom: 50px;
+    margin-left: 85%;        
     z-index: 9999;
 
     .image{
         border-radius: 50%;
-        width: 50%;
+        width: 61%;
         height: auto;
         transition: background-color 0.9s ease, transform 0.2s ease, box-shadow 0.3s ease;
         box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3), 0 6px 12px rgba(0, 0, 0, 0.2);
@@ -65,4 +65,24 @@ h2 {
     .image:hover{
         transform: translateY(-06px);
     }
+}
+
+@media (max-width:768px){
+    .title{
+        margin-top: 20px;
+        margin-left: -10px;
+        margin-right: -10px;
+        font-size: 18px;
+        border-radius: 15px;
+    }
+
+    .cta {
+        margin-bottom: 100px;
+        margin-left: 55%;        
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
 }

@@ -4,17 +4,17 @@
 
 
     .container{
-        padding: 20px 150px;
+        padding: 20px 75px;  
         display: flex;
         justify-content: space-between;
         align-items: center;
 
-        .fale-conosco{
-            text-align: end;
+        .fale{
+            text-align: start;
 
             .fale-conosco{
-                font-size: 35px;
                 font-weight: bold;
+                font-size: 35px;
             }
 
             span{
@@ -22,4 +22,35 @@
             }
         }
     }
+}
+
+@media (max-width:768px){
+    .footer{
+
+        .container{
+            display: block;
+            padding: 10px 50px;
+            text-align: start;
+
+            .fale{
+                
+
+                .fale-conosco{
+                    font-size: 20px;
+                    margin-top: 20px;
+                }
+
+                .email{
+                    font-size: 12px;
+                }
+                .telefone{
+                    font-size: 12px;
+                }
+                .marca{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
 }

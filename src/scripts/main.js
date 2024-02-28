@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', function(){
     const questions = document.querySelectorAll('[data-faq-question]');
 
